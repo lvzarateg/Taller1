@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(158, 240, 222);
+}
+
+#respuesta{
+    visibility: visible;
+    opacity: 4;
+}
+
+.correcto{
+    color: rgb(85, 133, 14);
+    visibility: visible;
+    opacity: 1;
+}
+
+.incorrecto{
+    color: red;
+    visibility: visible;
+    opacity: 1;
+}
+
+#opciones{
+    border: 20%;     
+}
+
