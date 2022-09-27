@@ -8,9 +8,7 @@ ops.addEventListener('click',(e)=>{
     const resp=document.getElementById("respuesta");
 
     if (e.target.id=="suma"){
-    let texto=`<p> 
-    <img src='img/correcto.png'> 
-    </p>`;
+    let texto=`<p> <img src='img/correcto.png'>  </p>`;
     let res=num1+num2;
     alert(`El primer numero es ${num1} y el segundo numero ${num2} la suma es ${res}`);
     resp.innerHTML=texto;
